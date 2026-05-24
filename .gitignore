@@ -1,0 +1,33 @@
+﻿# Raw data CSVs (too large / proprietary)
+data/raw/*.csv
+data/raw/*.zip
+
+# Processed data
+data/processed/*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pickle / model artefacts
+*.pkl
+*.pickle
+
+# Profiling reports (generated output)
+outputs/reports/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
